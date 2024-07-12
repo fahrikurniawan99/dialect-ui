@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import cn from "../helper/cn";
 import { InformationCircleIcon, XMarkIcon } from "@heroicons/react/16/solid";
 
