@@ -11,3 +11,4 @@ npm install dialect-ui
 - [x] Alert
 - [ ] Avatar
 - [ ] Button
+- Others
