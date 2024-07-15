@@ -1,4 +1,5 @@
 # Dialect UI
+## How To Install
 ``` shell
 npm install dialect-ui
 ```
