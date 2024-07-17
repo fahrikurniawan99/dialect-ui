@@ -3,6 +3,11 @@
   "private": false,
   "version": "0.0.12",
   "type": "module",
+  "repository": {
+    "directory": "https://github.com/fahrikurniawan99/dialect-ui/tree/development/lib",
+    "url": "https://github.com/fahrikurniawan99/dialect-ui",
+    "type": "github"
+  },
   "files": [
     "dist"
   ],
