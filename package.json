@@ -20,14 +20,16 @@
     }
   },
   "scripts": {
+    "prepublish": "npm run build",
     "dev": "vite",
     "prebuild": "rm -rf dist",
     "build": "tsc -b && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "prepublish": "npm run build",
+    "prebuild:vite": "rm -rf dist",
+    "build:vite": "tsc && vite build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build:storybook": "storybook build ",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
@@ -45,6 +47,7 @@
     "@storybook/addon-links": "^8.2.2",
     "@storybook/addon-onboarding": "^8.2.2",
     "@storybook/blocks": "^8.2.2",
+    "@storybook/builder-vite": "^8.2.4",
     "@storybook/react": "^8.2.2",
     "@storybook/react-vite": "^8.2.2",
     "@storybook/test": "^8.2.2",

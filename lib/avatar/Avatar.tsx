@@ -16,7 +16,6 @@ export const Avatar = ({
   src,
   className,
   notification = false,
-  size = "md",
   notificationClassName,
   onClick,
 }: AvatarProps): ReactNode => {
