@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "dialect-ui";
+import { Button } from "../button/Button";
 
 const meta: Meta<typeof Button> = {
   component: Button,
@@ -9,8 +9,14 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const Main: Story = {
-  args: {
-    message: "This is an button!",
-  },
+export const PrimaryColor: Story = {
+  args: { children: "Primary Button", color: "primary" },
+};
+
+export const SecondaryColor: Story = {
+  args: { children: "Secondary Button", color: "secondary" },
+};
+
+export const DarkColor: Story = {
+  args: { children: "Dark Button", color: "dark" },
 };
