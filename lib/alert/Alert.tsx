@@ -1,4 +1,4 @@
-// import React from "react";
+import type { ReactNode } from "react";
 import cn from "../helper/cn";
 import { InformationCircleIcon, XMarkIcon } from "@heroicons/react/16/solid";
 
@@ -14,7 +14,7 @@ export const Alert = ({
   color = "main",
   className,
   onClose,
-}: AlertProps) => (
+}: AlertProps): ReactNode => (
   <div
     className={cn(
       "flex w-full max-w-[400px] items-center py-3.5 border px-4 font-medium text-sm rounded-md",
