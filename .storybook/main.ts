@@ -3,9 +3,9 @@ import { resolve } from "path";
 
 const config: StorybookConfig = {
   stories: [
-    "../stories/**/*.mdx",
-    "../stories/*.mdx",
-    "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../lib/**/*.mdx",
+    "../lib/*.mdx",
+    "../lib/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
   addons: [
     "@storybook/addon-onboarding",
@@ -17,6 +17,9 @@ const config: StorybookConfig = {
   framework: {
     name: "@storybook/react-vite",
     options: {
+      builder: {
+        viteConfigPath: resolve(__dirname, "../vite.storybook.config.ts"),
+      },
     },
   },
 };
