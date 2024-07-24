@@ -14,7 +14,7 @@ coming soon...
 ✅ Alert\
 ✅ Avatar\
 ✅ Button\
-🔃 Checkbox\
+✅ Checkbox\
 🔃 Chip\
 🔃 Divider\
 🔃 Dropdown Menu\
