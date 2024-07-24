@@ -14,7 +14,7 @@ import{j as n}from"./jsx-runtime-DEdD30eg.js";import{useMDXComponents as i}from"
 `,n.jsxs(e.p,{children:["✅ Alert",n.jsx(e.br,{}),`
 `,"✅ Avatar",n.jsx(e.br,{}),`
 `,"✅ Button",n.jsx(e.br,{}),`
-`,"🔃 Checkbox",n.jsx(e.br,{}),`
+`,"✅ Checkbox",n.jsx(e.br,{}),`
 `,"🔃 Chip",n.jsx(e.br,{}),`
 `,"🔃 Divider",n.jsx(e.br,{}),`
 `,"🔃 Dropdown Menu",n.jsx(e.br,{}),`
